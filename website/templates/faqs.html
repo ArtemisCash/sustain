@@ -1,0 +1,56 @@
+{% extends "base.html" %} {% block title %}FAQs{% endblock %}
+
+{% block content %} 
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FAQs - Sustainability</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+        body {
+            font-family: "Montserrat", sans-serif;
+            line-height: 1.6;
+            margin: 0;
+        }
+        .faq {
+            max-width: 600px;
+            margin: auto;
+            margin-top: 5%;
+            margin-bottom: 10%;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .faq h1 {
+            text-align: center;
+        }
+        .faq p {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="faq">
+        <h1>Frequently Asked Questions</h1>
+        <p>Welcome to the FAQ section for the Sustainability Web App. Here you'll find answers to common questions about our app.</p>
+
+        <p><strong>1. What is the Sustainability Web App?</strong></p>
+        <p>The Sustainability Web App is a platform designed to track your carbon footprint, 
+            discover local sustainability initiatives, and connect with a community of like-minded individuals. 
+            Make a positive impact on the planet, one step at a time..</p>
+
+        <p><strong>2.How does the app help with accountability?</strong></p>
+        <p>The app empowers you to monitor your environmental impact and 
+            see the real-world difference you're making, keeping you motivated on your sustainability journey.</p>
+
+        <p><strong>3.Can I create multiple profiles?</strong></p>
+        <p>Yes, you can create multple profiles. </p>
+        <p><strong>4. Is the Sustainability app available 24/7?</strong></p>
+        <p>Yes, the app is available anytime, anywhere, ensuring that you have access to it whenever you need it.</p>
+    </div>
+</body>
+</html>
+
+{% endblock %}
